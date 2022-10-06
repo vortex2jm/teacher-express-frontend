@@ -1,0 +1,11 @@
+.container{
+  background-color: #7e4d72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.container img {
+  height: 70%;
+}
