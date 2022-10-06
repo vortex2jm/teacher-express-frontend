@@ -1,8 +1,13 @@
 .list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-left: 13%;
-    margin-top: 0;
-    padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 13%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.voidListMessage {
+  text-align: center;
+  color: #396665;
 }

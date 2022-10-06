@@ -1,21 +1,27 @@
 import Item from "./Item";
-import styles from "../styles/components/List.module.css"
+import styles from "../styles/components/List.module.css";
+import { Teacher } from "../@types/teacher";
 
-const List = () => {
-
-    return(
-        <>
-            <ul className={styles.list}>
-                <li><Item/></li>
-                <li><Item/></li>
-                <li><Item/></li>
-                <li><Item/></li>
-                <li><Item/></li>
-                <li><Item/></li>
-                <li><Item/></li>
-            </ul>
-        </>
-    )
+export interface ListProps {
+  teachers: Teacher[];
 }
+
+const List = (props: ListProps) => {
+  return (
+    <>
+      {props.teachers.length > 0 ? (
+        <ul className={styles.list}>
+          {props.teachers.map((teacher) => (
+            <li>
+              <Item teacher={teacher} key={teacher.id}/>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <h2 className={styles.voidListMessage}>Nenhum professor encontrado!</h2>
+      )}
+    </>
+  );
+};
 
 export default List;
