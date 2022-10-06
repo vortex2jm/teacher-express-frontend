@@ -5,11 +5,14 @@ const List = () => {
 
     return(
         <>
-            <ul >
-                <li className={styles.list}>
-                    <Item/>
-                    <Item/>
-                </li>
+            <ul className={styles.list}>
+                <li><Item/></li>
+                <li><Item/></li>
+                <li><Item/></li>
+                <li><Item/></li>
+                <li><Item/></li>
+                <li><Item/></li>
+                <li><Item/></li>
             </ul>
         </>
     )

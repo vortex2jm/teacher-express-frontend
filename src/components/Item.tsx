@@ -11,7 +11,7 @@ const Item = () => {
                     <h3>Name</h3>
                     <p>Value</p>
                     <p>Description</p>
-                    <Button variant="contained">Contact</Button>
+                    <Button variant="contained" color="primary">Contact</Button>
                 </div>
             </div>
         </>

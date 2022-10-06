@@ -1,4 +1,11 @@
 .item {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.item img{
+    width: 70%;
+    box-shadow: 2px 2px 1rem #396665;
+    border-radius: 1%;
 }
