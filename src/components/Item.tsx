@@ -13,7 +13,13 @@ const Item = (props: ItemProps) => {
         <img src={props.teacher.photo} />
         <div>
           <h3>{props.teacher.name}</h3>
-          <p>{props.teacher.value}</p>
+          <p>
+            {props.teacher.value.toLocaleString("pt-BR", {
+              minimumFractionDigits: 2,
+              style: "currency",
+              currency: "BRL",
+            })}
+          </p>
           <p>{props.teacher.description}</p>
           <Button variant="contained" color="primary">
             Contact

@@ -8,14 +8,14 @@ const Home: NextPage = () => {
     {
       id: 1,
       name: "Sr Clevelares",
-      value: "R$ 400,00 por hora",
+      value: 400,
       description: "Professor de programação",
       photo: "/images/professor.jpg"
     },
     {
       id: 2,
       name: "Kevin Space",
-      value: "R$ 450,00 por hora",
+      value: 450,
       description: "Professor de Brabeza language",
       photo: "/images/professor.jpg"
     }
