@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     getTeachers()
     .then(setTeachers)
     .catch(error => console.log(error));
-  },[teachers]);
+  },[]);
 
   return (
     <>
