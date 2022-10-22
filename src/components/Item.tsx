@@ -1,10 +1,6 @@
 import { Button } from "@mui/material";
-import { Teacher } from "../@types/teacher";
+import { ItemProps } from "../@types/item";
 import styles from "../styles/components/Item.module.css";
-
-interface ItemProps {
-  teacher: Teacher;
-}
 
 const Item = (props: ItemProps) => {
   return (

@@ -1,10 +1,6 @@
 import Item from "./Item";
 import styles from "../styles/components/List.module.css";
-import { Teacher } from "../@types/teacher";
-
-export interface ListProps {
-  teachers: Teacher[];
-}
+import { ListProps } from "../@types/list";
 
 const List = (props: ListProps) => {
   return (
