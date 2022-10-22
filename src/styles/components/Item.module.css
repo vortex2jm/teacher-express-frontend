@@ -6,7 +6,8 @@
 }
 
 .item img{
-    width: 70%;
+    width: 400px;
+    height: 400px;
     box-shadow: 2px 2px 1rem black;
     border-radius: 1%;
 }
